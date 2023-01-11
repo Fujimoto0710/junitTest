@@ -23,7 +23,7 @@ class JudgeUtilsTest {
 	// 現在時刻：2018/04/01
 	// 合格条件：true
 	@Test
-	public void testIsBillingAge_18歳_課金可能() {
+	public void testIsBillingAge_17歳_課金可能() {
 
 		// 事前処理(Mock)
 		Calendar cal = Calendar.getInstance();
@@ -56,7 +56,7 @@ class JudgeUtilsTest {
 	// 現在時刻：2018/04/02
 	// 合格条件：true
 	@Test
-	public void testIsBillingAge_18歳_0402生まれ_課金可能() {
+	public void testIsBillingAge_17歳_0402生まれ_課金可能() {
 
 		// 事前処理(Mock)
 		Calendar cal = Calendar.getInstance();
@@ -89,7 +89,7 @@ class JudgeUtilsTest {
 	// 現在時刻：2017/04/01
 	// 合格条件：false
 	@Test
-	public void testIsBillingAge_17歳_課金不可() {
+	public void testIsBillingAge_16歳_課金不可() {
 
 		// 事前処理(Mock)
 		Calendar cal = Calendar.getInstance();
