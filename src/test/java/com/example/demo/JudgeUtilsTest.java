@@ -37,7 +37,7 @@ class JudgeUtilsTest {
 		// 引数
 		Calendar birthcal = Calendar.getInstance();
 		birthcal.clear();
-		birthcal.set(Calendar.YEAR, 2000);
+		birthcal.set(Calendar.YEAR, 2001);
 		birthcal.set(Calendar.MONTH, Calendar.APRIL);
 		birthcal.set(Calendar.DAY_OF_MONTH, 01);
 		Date birthDay = birthcal.getTime();
@@ -70,7 +70,7 @@ class JudgeUtilsTest {
 		// 引数
 		Calendar birthcal = Calendar.getInstance();
 		birthcal.clear();
-		birthcal.set(Calendar.YEAR, 2000);
+		birthcal.set(Calendar.YEAR, 2001);
 		birthcal.set(Calendar.MONTH, Calendar.APRIL);
 		birthcal.set(Calendar.DAY_OF_MONTH, 01);
 		Date birthDay = birthcal.getTime();
@@ -103,7 +103,7 @@ class JudgeUtilsTest {
 		// 引数
 		Calendar birthcal = Calendar.getInstance();
 		birthcal.clear();
-		birthcal.set(Calendar.YEAR, 2000);
+		birthcal.set(Calendar.YEAR, 2001);
 		birthcal.set(Calendar.MONTH, Calendar.APRIL);
 		birthcal.set(Calendar.DAY_OF_MONTH, 01);
 		Date birthDay = birthcal.getTime();
